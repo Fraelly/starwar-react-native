@@ -18,7 +18,7 @@ export default function Form() {
       calcularImc();
       setAltura(null);
       setPeso(null);
-      setMessageImc("Seu Imc é: ");
+      setMessageImc("O seu Imc é: ");
       setTextButton("Calcular Novamente");
       return;
     } else {
@@ -43,7 +43,7 @@ export default function Form() {
         <TextInput
           onChangeText={setPeso}
           value={peso}
-          placeholder="Qual é o sea peso?"
+          placeholder="Qual é o seu peso?"
           keyboardType="numeric"
         />
 

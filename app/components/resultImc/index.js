@@ -14,7 +14,7 @@ const styles = StyleSheet.create({
     paddingTop: 10,
     fontSize: 20,
     fontWeight: "bold",
-    color: "blue",
+    color: "red",
     textAlign: "center",
   },
   textResult: {
